@@ -3,19 +3,49 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-primary: #1a73e8; /* A professional blue for primary actions */
+  --color-secondary: #fbbc05; /* A complementary yellow for highlights */
+  --color-background: #ffffff; /* Clean white background */
+  --color-surface: #f1f3f4; /* Light gray for cards and surfaces */
+  --color-text-primary: #202124; /* Dark gray for primary text */
+  --color-text-secondary: #5f6368; /* Medium gray for secondary text */
+  --color-border: #dadce0; /* Light gray for borders */
+  --color-header-footer-bg: #202124; /* Dark gray for header and footer background */
+  --color-header-footer-text: #ffffff; /* White text for header and footer */
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  @apply bg-white text-gray-900 antialiased;
+}
+
+header, footer {
+  @apply bg-gray-900 text-white py-4 px-6;
+}
+
+a {
+  @apply text-blue-600 no-underline;
+}
+
+a:hover {
+  @apply text-yellow-500 underline;
+}
+
+button {
+  @apply bg-blue-600 text-white py-2 px-4 rounded cursor-pointer;
+}
+
+button:hover {
+  @apply bg-yellow-500;
+}
+
+.card {
+  @apply bg-gray-100 border border-gray-300 rounded-lg p-4 shadow-md;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply text-gray-900;
+}
+
+p {
+  @apply text-gray-600;
 }
