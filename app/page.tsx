@@ -1,6 +1,6 @@
 // app/page.tsx
-import Header from './components/Header';
-import Footer from './components/Footer';
+import Header from './_components/Header';
+import Footer from './_components/Footer';
 
 const Home = () => {
     return (
@@ -10,10 +10,6 @@ const Home = () => {
                 <h1 className="text-3xl font-bold">Welcome to My Portfolio</h1>
                 <p className="mt-4">I specialize in AI and Machine Learning.</p>
                 <section id="projects" className="mt-8">
-                    <h2 className="text-2xl font-semibold">Projects</h2>
-                    <p>Explore my projects below.</p>
-                </section>
-                <section className="mt-8">
                     <h2 className="text-2xl font-semibold">Projects</h2>
                     <p>Explore my projects below.</p>
                 </section>
