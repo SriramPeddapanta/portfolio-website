@@ -21,8 +21,8 @@ title: Sriram Peddapanta
 email: sriram.peddapanta@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
   Lead SDET | Solution Architect | Quality Assurance Expert
-baseurl: "/portfolio-website"
-url: "https://srirampeddapanta.github.io"
+baseurl: /portfolio-website
+url: https://srirampeddapanta.github.io
 # url: http://localhost:4000
 twitter_username: #jekyllrb
 github_username:  SriramPeddapanta
