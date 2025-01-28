@@ -5,6 +5,7 @@
 layout: home
 title: Welcome
 ---
+# Sriram Peddapanta
 
 ## 👨‍💻 Professional Summary
 Hi there! 👋 I'm a seasoned **Lead SDET** and **Solution Architect** with a passion for building scalable, high-quality software solutions. With expertise in **microservices architecture**, **cloud technologies**, and **test automation**, I thrive on solving complex problems and leading teams to deliver impactful results.
