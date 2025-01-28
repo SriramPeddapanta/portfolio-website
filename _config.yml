@@ -33,11 +33,11 @@ plugins:
   - jekyll-feed
 
 menu:
-  - text: Home
+  - title: Home
     url: /
-  - text: Contact
-    url: /contact/
-  - text: Blog
+  - title: Contact
+    url: /#contact
+  - title: Blog
     url: /blog/
 
 # Exclude from processing.
