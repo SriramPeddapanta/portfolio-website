@@ -35,6 +35,8 @@ github_username:  SriramPeddapanta
 menu:
   - title: Home
     url: /
+  - title: Projects
+    url: /projects/
   - title: Contact
     url: /#contact
   - title: Blog

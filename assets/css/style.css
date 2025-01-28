@@ -45,3 +45,44 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+/* Projects Section */
+h1, h2, h3 {
+    color: #333;
+}
+
+.project {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.project-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.project-description {
+    margin: 0.5rem 0;
+}
+
+.project-technologies {
+    font-style: italic;
+    color: #555;
+}
+
+.project-link {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    background: #007BFF;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.project-link:hover {
+    background: #0056b3;
+}
