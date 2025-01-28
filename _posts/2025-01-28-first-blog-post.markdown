@@ -2,7 +2,8 @@
 layout: post
 title: "Welcome to My Blog"
 date: 2025-01-28
-categories: Blog
+categories: [Test Automation, Cloud]
+tags: [Jekyll, CI/CD, Azure]
 ---
 # Welcome to My Blog! 🎉
 
