@@ -86,3 +86,40 @@ h1, h2, h3 {
 .project-link:hover {
     background: #0056b3;
 }
+/* Blog Index Page */
+.blog-list {
+    margin: 2rem 0;
+}
+
+.blog-list li {
+    margin-bottom: 1.5rem;
+}
+
+.blog-list a {
+    font-size: 1.2rem;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.blog-list a:hover {
+    text-decoration: underline;
+}
+
+/* Blog Post Page */
+article {
+    margin: 2rem auto;
+    max-width: 800px;
+    padding: 1rem;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+article h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+article p {
+    margin: 0.5rem 0;
+}
