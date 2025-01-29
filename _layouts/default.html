@@ -21,3 +21,21 @@
     </main>
 </body>
 </html>
+<script>
+    function searchPosts() {
+        const input = document.getElementById('searchInput').value.toLowerCase();
+        const posts = document.querySelectorAll('.post-item');
+        
+        posts.forEach(post => {
+            const title = post.querySelector('a').textContent.toLowerCase();
+            const excerpt = post.textContent.toLowerCase();
+
+            // Show or hide the post based on the search query
+            if (title.includes(input) || excerpt.includes(input)) {
+                post.style.display = '';
+            } else {
+                post.style.display = 'none';
+            }
+        });
+    }
+</script>

@@ -37,10 +37,12 @@ menu:
     url: /
   - title: Projects
     url: /projects/
-  - title: Contact
-    url: /#contact
   - title: Blog
     url: /blog/
+  - title: Categories
+    url: /categories/
+  - title: Contact
+    url: /#contact
 
 # Exclude from processing.
 # The following items will not be processed, by default.

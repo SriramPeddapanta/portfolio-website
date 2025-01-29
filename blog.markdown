@@ -6,9 +6,13 @@ permalink: /blog/
 # 📝 Blog
 
 Welcome to my blog! Here are my latest posts:
-
+<input type="text" id="searchInput" placeholder="Search posts..." onkeyup="searchPosts()">
+<ul id="postList">
 {% for post in site.posts %}
-- **[{{ post.title }}]({{ post.url }})**  
-  _{{ post.date | date: "%B %d, %Y" }}_  
-  {{ post.excerpt }}
+<li class="post-item">
+    <strong><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></strong><br>
+    <small>{{ post.date | date: "%B %d, %Y" }}</small>
+    {{ post.excerpt }}
+</li>
 {% endfor %}
+</ul>
