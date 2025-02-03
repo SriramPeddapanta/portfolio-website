@@ -2,10 +2,7 @@
 layout: default
 title: "Sriram Peddapanta's Portfolio"
 ---
-
----
-
-**Sriram Peddapanta**  
+# **Sriram Peddapanta**  
 **Data Engineer | Java Backend Developer | Lead SDET**  
 [Email](mailto:sriram.peddapanta@outlook.com) | [Phone](tel:5132088004) | [LinkedIn](https://www.linkedin.com/in/sriram-peddapanta) | [GitHub](https://github.com/srirampeddapanta)
 
